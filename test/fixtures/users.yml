@@ -2,6 +2,7 @@ batman:
   name: Bruce Wayne
   email: bruce@example.com
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 robin:
   name: Dick Grayson
